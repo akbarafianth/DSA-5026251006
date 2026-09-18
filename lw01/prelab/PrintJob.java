@@ -30,12 +30,10 @@ public abstract class PrintJob implements Chargeable {
 	}
 
 	public String label() {
-		// TODO - implement PrintJob.label
 		return "Print";
 	}
 
 	public String summary() {
-		// TODO - implement PrintJob.summary
 		return id + " | " + label() + " | " + calculateCharge() ;
 	}
 

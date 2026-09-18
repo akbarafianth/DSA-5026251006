@@ -1,8 +1,6 @@
 public class MonoPrint extends PrintJob {
 
-	
 	public MonoPrint(String id, int pages) {
-		// TODO - implement MonoPrint.MonoPrint
 		super(id, pages);
 	}
 
@@ -13,8 +11,7 @@ public class MonoPrint extends PrintJob {
 
 	@Override 
 	public String label() {
-		// TODO - implement MonoPrint.label
+		
 		return "Mono";
 	}
-
 }

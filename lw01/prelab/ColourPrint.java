@@ -1,7 +1,6 @@
 public class ColourPrint extends PrintJob {
 	
 	public ColourPrint(String id, int pages) {
-		// TODO - implement ColourPrint.ColourPrint
 		super(id, pages);
 	}
 
@@ -14,11 +13,10 @@ public class ColourPrint extends PrintJob {
         } else {
             cost = (10 * 1500) + ((p - 10) * 1000);
         }
-        return cost + 2000; // Biaya setup IDR 2.000
+        return cost + 2000; // 
     }
 
 	public String label() {
-		// TODO - implement ColourPrint.label
 		return "Colour";
 	}
 
